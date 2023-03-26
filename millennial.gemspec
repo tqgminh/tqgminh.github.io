@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "tqgminh"
   spec.version       = "2.0.0"
-  spec.authors       = ["Trần Quang Minh"]
+  spec.authors       = ["Minh Tran"]
   spec.email         = ["quangminhtran22@gmail.com"]
 
-  spec.summary       = "A minimalist Jekyll theme for running a blog or publication powered by Jekyll and GitHub Pages"
-  spec.homepage      = "https://github.com/LeNPaul/Millennial"
+  spec.summary       = "A blog"
+  spec.homepage      = "https://github.com/tqgminh"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|CHANGELOG)!i) }

@@ -433,6 +433,7 @@ pre code {
   width: 600px;
   display: block;
   margin: 10px auto 10px;
+  text-align: justify;
 }
 
 .post-date {
@@ -503,7 +504,6 @@ pre code {
 .related-thumbnail {
   position: relative;
   width: 600px;
-  height: 200px;
   overflow: hidden;
 }
 
@@ -511,7 +511,6 @@ pre code {
   position: absolute;
   left: 50%;
   top: 50%;
-  height: auto;
   width: 600px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -534,6 +533,22 @@ pre code {
     width: 95vw;
   }
 }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .fa-envelope {
   padding: 5px;
   -webkit-transition: 1s;
