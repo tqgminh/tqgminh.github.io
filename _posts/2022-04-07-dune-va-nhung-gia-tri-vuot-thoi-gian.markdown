@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "DUNE VÀ NHỮNG GIÁ TRỊ VƯỢT THỜI GIAN"
+author: "Minh Tran"
+categories: posts
+tags: [cinema]
 image: Dune/cover.jpg
-date: 2022-04-11 01:48:20 +0700
-tags:
-categories: Movie
 ---
 
 <em><strong>*Bài viết có tiết lộ nội dung phim</strong></em>
