@@ -2,7 +2,7 @@
 layout: post
 title: "BURNING - LIỆU TA CÓ ĐANG LẠC LỐI TRONG CHÍNH CUỘC ĐỜI CỦA MÌNH"
 author: "Minh Tran"
-categories: posts
+categories: cinema
 tags: [cinema]
 image: Burning/cover.jpg
 ---

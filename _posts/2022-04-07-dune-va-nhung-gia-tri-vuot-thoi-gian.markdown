@@ -2,7 +2,7 @@
 layout: post
 title: "DUNE VÀ NHỮNG GIÁ TRỊ VƯỢT THỜI GIAN"
 author: "Minh Tran"
-categories: posts
+categories: cinema
 tags: [cinema]
 image: Dune/cover.jpg
 ---
