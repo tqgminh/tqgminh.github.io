@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/dune-va-nhung-gia-tri-vuot-thoi-gian</loc>
-<lastmod>2022-04-07T00:00:00+07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/burning-lieu-ta-co-dang-lac-loi-trong-chinh-cuoc-doi-cua-minh</loc>
 <lastmod>2022-09-04T00:00:00+07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ngon-ngu-dien-anh-trong-drive-2011</loc>
+<lastmod>2023-03-28T00:00:00+07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/2022-04-06-drive-my-car-review</loc>
+</url>
+<url>
+<loc>http://localhost:4000/2022-04-08-dune-va-nhung-gia-tri-vuot-thoi-gian</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about</loc>
