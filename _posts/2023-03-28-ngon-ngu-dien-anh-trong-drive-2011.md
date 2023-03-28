@@ -59,7 +59,7 @@ Họ nắm tay nhau. Dù là trong đêm thì tông màu của khung cảnh vẫ
 
 ## Và rồi chồng của Irene trở về...
 
-<h1>Comming soon...</h1>
+<h1>To be continue...</h1>
 
 <!-- <video width="100%" height="100%" controls>
   <source src="assets/img/Drive/drive.mp4" type="video/mp4">
