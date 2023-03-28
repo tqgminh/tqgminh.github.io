@@ -26,8 +26,8 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Mới hơn'
-  previous_page: 'Cũ hơn'
+  next_page: 'Newest'
+  previous_page: 'Oldest'
 
 sharing_button_prompt: 'Feel free to share!'
 
