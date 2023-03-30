@@ -78,7 +78,10 @@ Irene hoàn toàn lạc lõng trong bữa tiệc chào đón chồng trở lại
     <iframe src="https://www.youtube.com/embed/EGFoQ8JlQIY" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Một lần nữa âm nhạc lại nói lên tiếng lòng của các nhân vật, lần này không chỉ của tài xế mà của Irene nữa. Bài hát "Under your spell" dù sôi động nhưng những câu hát mang đầy những nỗi buồn. "I don't eat. I don't sleep. I do nothing but think of you. You keep me under your spell..."
+Một lần nữa âm nhạc lại nói lên tiếng lòng của các nhân vật, lần này không chỉ của tài xế mà của Irene nữa. Bài hát "Under your spell" dù sôi động nhưng những câu hát mang đầy những nỗi buồn.
+
+<p style="text-align: center;"><em>"I don't eat. I don't sleep. I do nothing but think of you. You keep me under your spell..."</em></p>
+
 
 ![](assets/img/Drive/9.png)
 
@@ -96,7 +99,7 @@ Chồng của Irene bắt buộc phải tham gia một phi vụ do những ân o
     <iframe src="https://www.youtube.com/embed/iaYFdMO2Qw0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Phân cảnh kinh điển và biểu tượng của Drive, tuyệt đẹp, lãng mạn nhưng cũng đầy máu me, bạo lực. Một gã sát thủ được gửi đến khu chung cư nơi tài xế và Irene sống. Họ đi chung thang máy. Tài xế lấy tay che chở Irene. Anh quay lại hôn cô vì biết rằng đây sẽ là lần cuối anh được ở bên cô. Cùng lúc đó ánh sáng tắt dần khiến cho nụ hôn trở nên nửa thực nửa mơ. Trong thang máy lúc này dường như chỉ có hai người. Một nụ hôn đầy ngọt ngào, day dứt mà tài xế dành cho tình yêu của đời mình. Ngay sau những giây phút lãng mạn, ngọt ngào ấy là những màn bạo lực đến đáng sợ. Tài xế đánh đập gã sát thủ, giẫm nát mặt hắn dù không cần thiết phải làm như vậy. Irene cảm nhận tình yêu mà tài xế dành cho mình nhưng cũng thấy được những khía cạnh tăm tối nhất bên trong anh. Cô đi ra khỏi thang máy, rồi cánh cửa khép lại dần. Đó chính là lần cuối họ gặp nhau. Một phân cảnh kinh điển trong lịch sử điện ảnh. Trời ơi đạo diễn vừa cho tôi xem cái gì vậy? =((((
+Phân cảnh kinh điển và biểu tượng của Drive, tuyệt đẹp, lãng mạn nhưng cũng đầy máu me, bạo lực. Một gã sát thủ được gửi đến khu chung cư nơi tài xế và Irene sống. Họ đi chung thang máy. Tài xế lấy tay che chở Irene. Anh quay lại hôn cô vì biết rằng đây sẽ là lần cuối anh được ở bên cô. Cùng lúc đó ánh sáng tắt dần khiến cho nụ hôn trở nên nửa thực nửa mơ. Trong thang máy lúc này dường như chỉ có hai người. Một nụ hôn đầy ngọt ngào, day dứt mà tài xế dành cho tình yêu của đời mình. Ngay sau những giây phút lãng mạn, ngọt ngào ấy là những màn bạo lực đến đáng sợ. Tài xế đánh đập gã sát thủ, giẫm nát mặt hắn dù không cần thiết phải làm như vậy. Irene cảm nhận tình yêu mà tài xế dành cho mình nhưng cũng thấy được những khía cạnh tăm tối nhất bên trong anh. Cô đi ra khỏi thang máy, rồi cánh cửa khép lại dần nhử thể đây là lân cuối họ gặp nhau. Một phân cảnh kinh điển trong lịch sử điện ảnh. Trời ơi đạo diễn vừa cho tôi xem cái gì vậy? =((((
 
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/qbZZ4ecaEns" frameborder="0" allowfullscreen></iframe>
