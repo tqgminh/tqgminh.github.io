@@ -37,19 +37,18 @@
 <meta property="og:title" content="SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER" />
 <meta name="author" content="Minh Tran" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được." />
-<meta property="og:description" content="Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được." />
-<link rel="canonical" href="http://localhost:4000/so-luoc-ve-mo-hinh-transformer" />
-<meta property="og:url" content="http://localhost:4000/so-luoc-ve-mo-hinh-transformer" />
+<meta name="description" content="Some stories" />
+<meta property="og:description" content="Some stories" />
+<link rel="canonical" href="http://localhost:4000/2023-05-02-so-luoc-ve-mo-hinh-transformer" />
+<meta property="og:url" content="http://localhost:4000/2023-05-02-so-luoc-ve-mo-hinh-transformer" />
 <meta property="og:site_name" content="Blog của Minh" />
 <meta property="og:image" content="http://localhost:4000/Transformer/cover.jpg" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-05-02T00:00:00+07:00" />
+<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/Transformer/cover.jpg" />
 <meta property="twitter:title" content="SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Minh Tran"},"dateModified":"2023-05-02T00:00:00+07:00","datePublished":"2023-05-02T00:00:00+07:00","description":"Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được.","headline":"SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER","image":"http://localhost:4000/Transformer/cover.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/so-luoc-ve-mo-hinh-transformer"},"url":"http://localhost:4000/so-luoc-ve-mo-hinh-transformer"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Minh Tran"},"description":"Some stories","headline":"SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER","image":"http://localhost:4000/Transformer/cover.jpg","url":"http://localhost:4000/2023-05-02-so-luoc-ve-mo-hinh-transformer"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -114,10 +113,9 @@
     <span class="post-date">
   Written on
   
-  May
-  2nd
-    ,
-  2023
+  
+  th,
+  
   by
   
     Minh Tran
@@ -144,8 +142,8 @@
     <div class="post-share">
   <div class="post-date">Feel free to share!</div>
   <div class="sharing-icons">
-    <a href="https://twitter.com/intent/tweet?text=SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER&amp;url=/so-luoc-ve-mo-hinh-transformer" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php?u=/so-luoc-ve-mo-hinh-transformer&amp;title=SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/intent/tweet?text=SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER&amp;url=/2023-05-02-so-luoc-ve-mo-hinh-transformer" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/2023-05-02-so-luoc-ve-mo-hinh-transformer&amp;title=SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
   </div>
 </div>
   
@@ -155,9 +153,6 @@
   
   <ul class="related-posts">
     
-      
-        
-        
       
     
   </ul>
