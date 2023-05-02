@@ -7,7 +7,35 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>NGÔN NGỮ ĐIỆN ẢNH TRONG DRIVE (2011)</title>
+				<title>SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER</title>
+				
+					<dc:creator>Minh Tran</dc:creator>
+				
+				
+					<description>&lt;p&gt;Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 02 May 2023 00:00:00 +0700</pubDate>
+				<link>http://localhost:4000/so-luoc-ve-mo-hinh-transformer</link>
+				<guid isPermaLink="true">http://localhost:4000/so-luoc-ve-mo-hinh-transformer</guid>
+			</item>
+		
+			<item>
+				<title>CÁC TẬP PHIM HAY NHẤT VOLUME 1 CỦA LOVE DEATH &amp; ROBOTS</title>
+				
+					<dc:creator>Minh Tran</dc:creator>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Tue, 02 May 2023 00:00:00 +0700</pubDate>
+				<link>http://localhost:4000/cac-tap-phim-hay-nhat-volume-1-cua-love-death-&-robots</link>
+				<guid isPermaLink="true">http://localhost:4000/cac-tap-phim-hay-nhat-volume-1-cua-love-death-&-robots</guid>
+			</item>
+		
+			<item>
+				<title>TÌNH YÊU TRONG DRIVE ĐƯỢC THỂ HIỆN NHƯ THẾ NÀO?</title>
 				
 					<dc:creator>Minh Tran</dc:creator>
 				
@@ -16,8 +44,8 @@
 </description>
 				
 				<pubDate>Tue, 28 Mar 2023 00:00:00 +0700</pubDate>
-				<link>http://localhost:4000/ngon-ngu-dien-anh-trong-drive-2011</link>
-				<guid isPermaLink="true">http://localhost:4000/ngon-ngu-dien-anh-trong-drive-2011</guid>
+				<link>http://localhost:4000/tinh-yeu-trong-drive-duoc-the-hien-nhu-the-nao</link>
+				<guid isPermaLink="true">http://localhost:4000/tinh-yeu-trong-drive-duoc-the-hien-nhu-the-nao</guid>
 			</item>
 		
 			<item>

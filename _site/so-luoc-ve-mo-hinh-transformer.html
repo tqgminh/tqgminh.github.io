@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+  <head>
+  <title>
+    
+      SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER | Blog của Minh
+    
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Blog của Minh" />
+  <!-- RSS-v2.0
+  <link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Blog của Minh | Some stories"/>
+  //-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-112060364-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER | Blog của Minh</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER" />
+<meta name="author" content="Minh Tran" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được." />
+<meta property="og:description" content="Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được." />
+<link rel="canonical" href="http://localhost:4000/so-luoc-ve-mo-hinh-transformer" />
+<meta property="og:url" content="http://localhost:4000/so-luoc-ve-mo-hinh-transformer" />
+<meta property="og:site_name" content="Blog của Minh" />
+<meta property="og:image" content="http://localhost:4000/Transformer/cover.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-02T00:00:00+07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/Transformer/cover.jpg" />
+<meta property="twitter:title" content="SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Minh Tran"},"dateModified":"2023-05-02T00:00:00+07:00","datePublished":"2023-05-02T00:00:00+07:00","description":"Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được.","headline":"SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER","image":"http://localhost:4000/Transformer/cover.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/so-luoc-ve-mo-hinh-transformer"},"url":"http://localhost:4000/so-luoc-ve-mo-hinh-transformer"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <div class="container">
+      <header class="site-header">
+  <h3 class="site-title">
+    <a href="/">Blog của Minh</a>
+  </h3>
+  <nav class="menu-list">
+    
+      <a href="/knowledge" class="menu-link">Knowledge</a>
+    
+      <a href="/cinema" class="menu-link">Cinema</a>
+    
+      <a href="/about" class="menu-link">About</a>
+    
+    
+      <a href="https://www.facebook.com/tqgminh" class="menu-link" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    
+      <a href="https://instagram.com/moviefromme" class="menu-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    
+      <a href="https://twitter.com/tqgminh" class="menu-link" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    
+      <a href="https://www.linkedin.com/in/tqgminh/" class="menu-link" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    
+      <a href="mailto:quangminhtran22@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+  </nav>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      
+        <a href="/knowledge" class="menu-link">Knowledge</a>
+      
+        <a href="/cinema" class="menu-link">Cinema</a>
+      
+        <a href="/about" class="menu-link">About</a>
+      
+      
+        <a href="https://www.facebook.com/tqgminh" class="menu-link" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      
+        <a href="https://instagram.com/moviefromme" class="menu-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      
+        <a href="https://twitter.com/tqgminh" class="menu-link" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      
+        <a href="https://www.linkedin.com/in/tqgminh/" class="menu-link" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+        <a href="mailto:quangminhtran22@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+    </div>
+  </div>
+</header>
+
+      <div class="content-wrapper">
+        <div class="post-content">
+  <h1>
+    SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER
+  </h1>
+  
+    <span class="post-date">
+  Written on
+  
+  May
+  2nd
+    ,
+  2023
+  by
+  
+    Minh Tran
+  
+</span>
+
+  
+  
+    <div class="featured-image">
+      <img src="/assets/img/Transformer/cover.jpg">
+    </div>
+  
+  <article>
+    <p>Nhắc đến Transformer, có lẽ người ta sẽ liên tưởng ngay đến series phim điện ảnh bom tấn về người máy của “ông hoàng cháy nổ “ Michael Bay. Tuy nhiên, với những ai làm việc trong lĩnh vực Trí tuệ nhân tạo (AI) thì đây là một thuật ngữ chuyên ngành, là tên của một mô hình rất quan trọng và đột phá của lĩnh vực này. Transformer được giới thiệu lần đầu trong bài báo Attention Is All You Need tại hội thảo NeurIPS năm 2017 bởi một nhóm nghiên cứu của Google. Kể từ đây, nó đã thay đổi hoàn toàn bộ mặt của ngành AI, đặc biệt là lĩnh vực Xử lý ngôn ngữ tự nhiên (NLP). Dựa trên Transformer, hàng loạt các mô hình ngôn ngữ lớn được ra đời, với kích thước từ vài chục triệu cho đến hàng trăm tỉ tham số, kéo theo đó là kết quả ngày một cải thiện cho mọi bài toán. Thực tế thì sau khi Transformer ra đời, đã có rất nhiều nghiên cứu cải tiến các thành phần trong mô hình này để nó tối ưu hơn cả về kết quả cũng như thời gian, bộ nhớ huấn luyện. Tuy nhiên trong bài viết này, mình sẽ chỉ trình bày về các thành phần của mô hình Transformer được đề xuất trong bài báo gốc, trong giới hạn mà mình tìm hiểu được.</p>
+
+<h2 id="tổng-quan-mô-hình">Tổng quan mô hình</h2>
+
+<h3 id="nhắc-lại-về-sequence-to-sequence">Nhắc lại về Sequence-to-sequence</h3>
+
+<p>Đúng như tên gọi, Sequence-to-sequence (Seq2Seq) có nhiệm vụ nhận vào một chuỗi, ký hiệu là \(\textbf{x}\) để sinh ra một chuỗi mới, ký hiệu là \(\textbf{y}\). Mô hình này thường được ứng dụng rất nhiều để giải quyết các bài toán NLP. Chẳng hạn với bài toán dịch máy</p>
+
+  </article>
+  
+    <div class="post-share">
+  <div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER&amp;url=/so-luoc-ve-mo-hinh-transformer" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/so-luoc-ve-mo-hinh-transformer&amp;title=SƠ LƯỢC VỀ MÔ HÌNH TRANSFORMER" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  </div>
+</div>
+  
+  
+    <div class="related">
+  <h2>You may also enjoy...</h2>
+  
+  <ul class="related-posts">
+    
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+  
+  
+</div>
+
+      </div>
+      <footer class="footer">
+  
+    <a href="https://www.facebook.com/tqgminh" class="menu-link" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  
+    <a href="https://instagram.com/moviefromme" class="menu-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  
+    <a href="https://twitter.com/tqgminh" class="menu-link" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+    <a href="https://www.linkedin.com/in/tqgminh/" class="menu-link" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  
+    <a href="mailto:quangminhtran22@gmail.com" class="menu-link" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+  <div class="footer-description"><a href="/">Blog của Minh | Some stories by Minh Tran</a></div>
+</footer>
+
+    </div>
+  </body>
+</html>
