@@ -17,20 +17,32 @@ Love, Death & Robots (❤️❌🤖) là một TV Series hoạt hình người l
 
 Volume 1 của series bao gồm 18 tập phim, với độ dài từ 6 đến 17 phút. Do mỗi tập phim lại kể một câu chuyện khác nhau, với một thời lượng ngắn, nên chắc chắn sẽ có sự chênh lệch về chất lượng giữa các tập. Vì vậy trong bài viết này, mình sẽ chọn ra những tập phim mà mình cảm thấy ấn tượng nhất ở volume 1, cùng với đó là một số cảm nhận của mình về những tập phim này. Các tập phim trong bài viết được trình bày theo thứ tự mà mình xem, hoàn toàn không xếp hạng chất lượng giữa các tập, vì với mình có lẽ chúng đều ấn tượng như nhau.
 
-## Beyond the Aquila Rift - Bên kia khe nứt Aquila
+## Beyond the Aquila Rift
 
 ![](assets/img/Love_Death_and_Robots/Beyond_the_Aquila_Rift.png)
 
-## Sonnie's Edge - Lợi thế của Sonnie
+## Sonnie's Edge
 
 ![](assets/img/Love_Death_and_Robots/Sonnie's_Edge.png)
 
-## The Secret War - Chiến tranh mật
+## The Secret War
 
 ![](assets/img/Love_Death_and_Robots/The_Secret_War.png)
 
-## The Witness - Nhân chứng
+## The Witness
 
 ![](assets/img/Love_Death_and_Robots/The_Witness.png)
+
+## Good Hunting
+
+![](assets/img/Love_Death_and_Robots/Good_Hunting.png)
+
+## Shape-Shifters
+
+![](assets/img/Love_Death_and_Robots/Shape-Shifters.png)
+
+## Zima Blue
+
+![](assets/img/Love_Death_and_Robots/Zima_Blue.png)
 
 ### To be continued...
